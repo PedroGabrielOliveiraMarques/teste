@@ -1,0 +1,103 @@
+body{
+    background:aliceblue;
+    color: rgb(11, 11, 11);
+    margin:0;
+    padding: 16px;
+    min-width: 399px;
+}
+header .container{
+    background-color: rgb(0, 0, 0);
+    max-width: 1815px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-radius: 7px;
+    font-family: 'Bungee', cursive;
+    
+}
+header .container nav li{
+    display: inline;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+header .container ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header .container h1{
+    color: aliceblue;
+    margin-left: 8px;
+    
+}
+#futebol img,
+#badminton img,
+#basquete img,
+#volei img{
+    width: 29%;
+    border-radius: 9px;
+    margin-right: 32px;
+}
+#contato img{
+    width: 16px;
+}
+#contato{
+    background-color: rgba(0, 0, 0, 0.937);
+    color: aliceblue;
+    padding: 16px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#contato .metodos-de-contato{
+    list-style-type: none;
+    display: flex;
+    
+}
+#contato .metodos-de-contato li{
+    margin-left: 8px;
+}
+#contato a{
+    text-decoration: none;
+    color: aliceblue;
+}
+section .container{
+    padding: 24px 0;
+    display: flex;
+    align-items: flex-start;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size-adjust: 0.5;
+}
+footer{
+    background-color:rgba(0, 0, 0, 0.937);
+    color: #ecf0f1;
+    padding: 16px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-width:8px ;
+    border-color: #2a2b2be4;
+    
+}
+footer .container{
+    margin-left: 35%;
+}
+.redes-socias{
+    padding: 0px 10%;
+    
+}
+button{
+    background-color:rgba(0, 0, 255, 0);
+    border-style: none;
+    font-family: 'Bungee', cursive;
+    padding:  0PX 50PX;
+}
+#volei a,
+#futebol a,
+#basquete a,
+#badminton a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.909);
+}
