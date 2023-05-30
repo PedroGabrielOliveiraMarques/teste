@@ -1,19 +1,21 @@
 body{
     background:aliceblue;
     color: rgb(11, 11, 11);
-    margin:0;
-    padding: 16px;
+    margin:0px;
+    padding: 0px;
+    
     min-width: 399px;
 }
 header .container{
     background-color: rgb(0, 0, 0);
-    max-width: 1815px;
+    max-width: 1875px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px;
-    border-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     font-family: 'Bungee', cursive;
     
 }
@@ -49,6 +51,7 @@ header .container h1{
     padding: 16px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    margin: 0px;
 }
 #contato .metodos-de-contato{
     list-style-type: none;
@@ -100,4 +103,45 @@ button{
 #badminton a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.909);
+}
+#volei ,
+#futebol ,
+#basquete ,
+#badminton {
+    padding: 18px;
+}
+#contato .formulario{
+    background-color: rgb(244, 244, 244);
+    margin: 0px ;
+    border-radius: 5px;
+    padding: 8px;
+    width: 350px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding:8px;
+    border-radius: 5px;
+    
+}
+form button{
+    cursor: pointer;
+    background-color: rgba(7, 10, 10, 0.342);
+
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+#contato .formulario h2{
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    background-color: rgb(30, 30, 30);
+    border-radius: 28px;
 }
